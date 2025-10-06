@@ -6,22 +6,34 @@ using UnityEngine.EventSystems;
 
 public class Slot : SerializedMonoBehaviour
 {
-    public bool IsEmpty { get => block == null; }
-    public Dictionary<SlotConnectionTypeEnum, Slot> Connections { get => connections; }
+    public enum ConnectionTypeEnum
+    {
+        Up = 1,
+        Down = -1,
 
-    public Block block;
+        UpLeft = 2,
+        DownRight = -2,
+
+        UpRight = 3,
+        DownLeft = -3,
+    }
+
+    public bool IsEmpty { get => block == null; }
+    public Dictionary<ConnectionTypeEnum, Slot> Connections { get => connections; }
+
+    public IBlock block;
     public int id;
 
     private RectTransform rectTransform;
 
-    [SerializeField] private Dictionary<SlotConnectionTypeEnum, Slot> connections = new Dictionary<SlotConnectionTypeEnum, Slot>();
+    [SerializeField] private Dictionary<ConnectionTypeEnum, Slot> connections = new Dictionary<ConnectionTypeEnum, Slot>();
 
     void Reset()
     {
         rectTransform = GetComponent<RectTransform>();
     }
 
-    public void Connect(Slot another, SlotConnectionTypeEnum connectionType)
+    public void Connect(Slot another, ConnectionTypeEnum connectionType)
     {
         if (connections.TryGetValue(connectionType, out var connecttedNode))
         {
@@ -38,19 +50,19 @@ public class Slot : SerializedMonoBehaviour
         {
             connections.Add(connectionType, another); // this -> another 참조 시작
 
-            var inverseConnectionType = (SlotConnectionTypeEnum)((int)connectionType * -1); // 상대 객체 관점의 커넥션 타입
+            var inverseConnectionType = (ConnectionTypeEnum)((int)connectionType * -1); // 상대 객체 관점의 커넥션 타입
             another.Connect(this, inverseConnectionType); // another -> this 침조 시작
         }
     }
 
-    public void Disconnect(SlotConnectionTypeEnum connectionType)
+    public void Disconnect(ConnectionTypeEnum connectionType)
     {
         if (connections.ContainsKey(connectionType))
         {
             var temp = connections[connectionType];
             connections.Remove(connectionType); // this -> another 참조 제거
 
-            var inverseConnectionType = (SlotConnectionTypeEnum)((int)connectionType * -1); // 상대 객체 관점의 커넥션 타입
+            var inverseConnectionType = (ConnectionTypeEnum)((int)connectionType * -1); // 상대 객체 관점의 커넥션 타입
             temp.Disconnect(inverseConnectionType); // another -> this 참조 제거
         }
     }
@@ -79,7 +91,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.Up.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.Up.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -88,7 +100,7 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.Up);
+                Connect(slot, ConnectionTypeEnum.Up);
                 break;
             }
         }
@@ -103,7 +115,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.Down.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.Down.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -112,7 +124,7 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.Down);
+                Connect(slot, ConnectionTypeEnum.Down);
                 break;
             }
         }
@@ -127,7 +139,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.UpLeft.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.UpLeft.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -136,7 +148,7 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.UpLeft);
+                Connect(slot, ConnectionTypeEnum.UpLeft);
                 break;
             }
         }
@@ -151,7 +163,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.UpRight.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.UpRight.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -160,7 +172,7 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.UpRight);
+                Connect(slot, ConnectionTypeEnum.UpRight);
                 break;
             }
         }
@@ -175,7 +187,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.DownLeft.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.DownLeft.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -184,7 +196,7 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.DownLeft);
+                Connect(slot, ConnectionTypeEnum.DownLeft);
                 break;
             }
         }
@@ -199,7 +211,7 @@ public class Slot : SerializedMonoBehaviour
 
         if (raycastResults.Count == 0)
         {
-            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {SlotConnectionTypeEnum.DownRight.ToString()} side.");
+            Debug.LogWarning($"{this.gameObject.name} could'nt find any slots connectable with {ConnectionTypeEnum.DownRight.ToString()} side.");
         }
 
         foreach (var raycastResult in raycastResults)
@@ -208,21 +220,9 @@ public class Slot : SerializedMonoBehaviour
 
             if (slot != null)
             {
-                Connect(slot, SlotConnectionTypeEnum.DownRight);
+                Connect(slot, ConnectionTypeEnum.DownRight);
                 break;
             }
         }
     }
-}
-
-public enum SlotConnectionTypeEnum
-{
-    Up = 1,
-    Down = -1,
-
-    UpLeft = 2,
-    DownRight = -2,
-
-    UpRight = 3,
-    DownLeft = -3,
 }

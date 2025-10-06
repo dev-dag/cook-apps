@@ -388,13 +388,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -486,7 +489,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &127303522
 RectTransform:
@@ -627,13 +629,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -725,7 +730,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &155675867
 RectTransform:
@@ -969,7 +973,7 @@ Canvas:
   m_GameObject: {fileID: 196467365}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 894488806}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -996,6 +1000,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 976485279}
+  - {fileID: 1420396483}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1046,13 +1051,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1132,7 +1140,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &249613564
 RectTransform:
@@ -1195,13 +1202,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1257,7 +1267,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &270602710
 RectTransform:
@@ -1323,13 +1332,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1421,7 +1433,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &358434810
 RectTransform:
@@ -1559,13 +1570,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -1621,7 +1635,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &369848497
 RectTransform:
@@ -1985,13 +1998,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2059,7 +2075,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &647265708
 RectTransform:
@@ -2200,13 +2215,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2298,7 +2316,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &680317040
 RectTransform:
@@ -2362,13 +2379,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2436,7 +2456,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &712691637
 RectTransform:
@@ -2864,13 +2883,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -2962,7 +2984,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &917415598
 RectTransform:
@@ -3114,8 +3135,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 976485279}
+  - component: {fileID: 976485281}
+  - component: {fileID: 976485280}
   m_Layer: 5
-  m_Name: Slots
+  m_Name: Slot Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3166,6 +3189,46 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &976485280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976485278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 55
+--- !u!223 &976485281
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976485278}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &979548918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,13 +3271,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3282,7 +3348,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &979548920
 RectTransform:
@@ -3348,13 +3413,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3446,7 +3514,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &985255739
 RectTransform:
@@ -3510,13 +3577,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3584,7 +3654,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &992173324
 RectTransform:
@@ -3647,13 +3716,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3709,7 +3781,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1009486386
 RectTransform:
@@ -3773,13 +3844,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -3847,7 +3921,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1047545782
 RectTransform:
@@ -3985,13 +4058,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4047,7 +4123,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1106097415
 RectTransform:
@@ -4133,13 +4208,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4231,7 +4309,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!1 &1201148115
 GameObject:
@@ -4349,13 +4426,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4411,7 +4491,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1205122303
 RectTransform:
@@ -4552,13 +4631,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -4650,7 +4732,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1255534751
 RectTransform:
@@ -4897,6 +4978,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359591620}
   m_CullTransparentMesh: 1
+--- !u!1 &1420396482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420396483}
+  - component: {fileID: 1420396485}
+  - component: {fileID: 1420396484}
+  m_Layer: 5
+  m_Name: Block Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1420396483
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420396482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1513606874}
+  m_Father: {fileID: 196467369}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1420396484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420396482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 55
+--- !u!223 &1420396485
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420396482}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
 --- !u!1 &1499112285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4939,13 +5098,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5013,7 +5175,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1499112287
 RectTransform:
@@ -5110,6 +5271,112 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512355083}
   m_CullTransparentMesh: 1
+--- !u!1001 &1513606873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1420396483}
+    m_Modifications:
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 636832284846866662, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: m_Name
+      value: Color Block
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183898070413323851, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8183898070413323851, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+--- !u!224 &1513606874 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 564818173105460198, guid: 4c070abf53fe2744e88cf9c3ca487964, type: 3}
+  m_PrefabInstance: {fileID: 1513606873}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1623185301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5302,13 +5569,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5376,7 +5646,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1712297308
 RectTransform:
@@ -5442,13 +5711,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5540,7 +5812,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1800701975
 RectTransform:
@@ -5678,13 +5949,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5740,7 +6014,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1887581307
 RectTransform:
@@ -5878,13 +6151,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -5940,7 +6216,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1915763827
 RectTransform:
@@ -6081,13 +6356,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6179,7 +6457,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1962440610
 RectTransform:
@@ -6243,13 +6520,16 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: block
+      Entry: 6
+      Data: 
     - Name: connections
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[SlotConnectionTypeEnum, Assembly-CSharp],[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[Slot+ConnectionTypeEnum, Assembly-CSharp],[Slot,
         Assembly-CSharp]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[SlotConnectionTypeEnum,
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Slot+ConnectionTypeEnum,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
@@ -6317,7 +6597,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  block: {fileID: 0}
   id: 0
 --- !u!224 &1975986556
 RectTransform:
@@ -6419,18 +6698,15 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: GameData
-      Entry: 7
-      Data: 0|Observer`1[[GameData, Assembly-CSharp]], Assembly-CSharp
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: dispenserTree
       Entry: 7
-      Data: 1|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Collections.Generic.List`1[[Slot,
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.Collections.Generic.List`1[[Slot,
         Assembly-CSharp]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 2|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
         mscorlib]], mscorlib
     - Name: 
       Entry: 8
@@ -6446,7 +6722,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 3|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 2|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
@@ -6476,7 +6752,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 4|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 3|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -6509,7 +6785,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 4|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -6542,7 +6818,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 7
-      Data: 6|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 5|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -6575,7 +6851,7 @@ MonoBehaviour:
       Data: 5
     - Name: $v
       Entry: 7
-      Data: 7|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 6|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -6608,7 +6884,7 @@ MonoBehaviour:
       Data: 6
     - Name: $v
       Entry: 7
-      Data: 8|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 7|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 4
@@ -6641,7 +6917,7 @@ MonoBehaviour:
       Data: 7
     - Name: $v
       Entry: 7
-      Data: 9|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
+      Data: 8|System.Collections.Generic.List`1[[Slot, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
