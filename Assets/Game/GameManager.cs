@@ -8,7 +8,7 @@ public class GameManager : SerializedMonoBehaviour
     public static GameManager Instance { get; private set; }
     public Dictionary<int, Slot> SlotCache { get; private set; } = new Dictionary<int, Slot>();
 
-    public Observer<GameData> GameData = new Observer<GameData>();
+    public GameData GameData = new GameData();
 
     [SerializeField] private List<Slot> slots;
     [SerializeField] private Dictionary<int, List<Slot>> dispenserTree;
