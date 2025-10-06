@@ -15,6 +15,13 @@ public class DispenserNode<T> where T : class
     [SerializeField] private T value;
     [SerializeField] private DispenserNode<T> child;
 
+    public DispenserNode(T newValue)
+    {
+        value = newValue;
+        parent = null;
+        child = null;
+    }
+
     public bool SetChild(DispenserNode<T> newChild)
     {
         if (child != null)
