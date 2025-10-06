@@ -7,11 +7,13 @@ public class GameManager : SerializedMonoBehaviour
 {
     public static GameManager Instance { get; private set; }
     public Dictionary<int, Slot> SlotCache { get; private set; } = new Dictionary<int, Slot>();
+    public BlockFactory BlockFactory { get => blockFactory; }
 
     public GameData GameData = new GameData();
 
     [SerializeField] private List<Slot> slots;
     [SerializeField] private Dictionary<int, List<Slot>> dispenserTree;
+    [SerializeField] private BlockFactory blockFactory;
     private Dictionary<int, DispenserNode<Slot>> dispenserRoots = new Dictionary<int, DispenserNode<Slot>>();
 
     private void Awake()
@@ -27,19 +29,22 @@ public class GameManager : SerializedMonoBehaviour
         }
 
         Initialize();
-        MakeDispenserTree();
     }
 
     public void Initialize()
     {
+        // 슬롯에 ID 부여
         for (int index = 0; index < slots.Count; index++)
         {
             slots[index].id = index + 1;
         }
 
         Cache();
+        MakeDispenserTree();
+        blockFactory.Initialize();
     }
 
+    // 슬롯 ID로 캐싱
     private void Cache()
     {
         SlotCache.Clear();
