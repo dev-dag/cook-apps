@@ -1,11 +1,8 @@
-using System;
+﻿using System;
 using UnityEngine;
-using System.Collections;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
-using Mono.Cecil.Cil;
-using Unity.Android.Gradle.Manifest;
 
 public class Slot : SerializedMonoBehaviour
 {
