@@ -6348,8 +6348,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976467911}
+  - component: {fileID: 1976467912}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6364,12 +6365,66 @@ Transform:
   m_GameObject: {fileID: 1976467910}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 309.25, y: 370, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976467912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976467910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61adf336d608d194f91192e3d4fe6823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GameData
+      Entry: 7
+      Data: 0|Observer`1[[GameData, Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+  slots:
+  - {fileID: 249613563}
+  - {fileID: 1712297307}
+  - {fileID: 1887581306}
+  - {fileID: 1009486385}
+  - {fileID: 647265707}
+  - {fileID: 1205122302}
+  - {fileID: 1975986555}
+  - {fileID: 979548919}
+  - {fileID: 369848496}
+  - {fileID: 712691636}
+  - {fileID: 1499112286}
+  - {fileID: 1106097414}
+  - {fileID: 1047545781}
+  - {fileID: 1915763826}
+  - {fileID: 270602709}
+  - {fileID: 992173323}
+  - {fileID: 680317039}
+  - {fileID: 1255534750}
+  - {fileID: 155675866}
+  - {fileID: 358434809}
+  - {fileID: 917415597}
+  - {fileID: 127303521}
+  - {fileID: 1962440609}
+  - {fileID: 1800701974}
+  - {fileID: 985255738}
+  - {fileID: 1139721985}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
