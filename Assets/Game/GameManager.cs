@@ -11,6 +11,8 @@ public class GameManager : SerializedMonoBehaviour
     public Observer<GameData> GameData = new Observer<GameData>();
 
     [SerializeField] private List<Slot> slots;
+    [SerializeField] private Dictionary<int, List<Slot>> dispenserTree;
+    private Dictionary<int, DispenserNode<Slot>> dispenserRoots = new Dictionary<int, DispenserNode<Slot>>();
 
     private void Awake()
     {
@@ -25,6 +27,7 @@ public class GameManager : SerializedMonoBehaviour
         }
 
         Initialize();
+        MakeDispenserTree();
     }
 
     public void Initialize()
@@ -45,6 +48,28 @@ public class GameManager : SerializedMonoBehaviour
         {
             var slot = slots[index];
             SlotCache.Add(slot.id, slot);
+        }
+    }
+
+    // 분배 트리 생성
+    private void MakeDispenserTree()
+    {
+        dispenserRoots.Clear();
+
+        foreach (int lineID in dispenserTree.Keys)
+        {
+            DispenserNode<Slot> root = new DispenserNode<Slot>(dispenserTree[lineID][0]);
+            dispenserRoots.Add(lineID, root);
+
+            DispenserNode<Slot> prevNode = root;
+
+            for (int index = 1; index < dispenserTree[lineID].Count; index++)
+            {
+                var node = new DispenserNode<Slot>(dispenserTree[lineID][index]);
+                prevNode.SetChild(node);
+
+                prevNode = node;
+            }
         }
     }
 }
